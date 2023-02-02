@@ -30,9 +30,9 @@ func (l *sint) Insert(v int) {
 	}
 }
 
-// Search look for the given value in
-// the list. It returns the pointer to the value
-// if found, or nil if doesn't.
+// Search look for the given value in the list.
+// It returns the pointer to the value if
+// found, or nil if doesn't.
 func (l *sint) Search(v int) *sint {
 	if l == nil {
 		return nil
